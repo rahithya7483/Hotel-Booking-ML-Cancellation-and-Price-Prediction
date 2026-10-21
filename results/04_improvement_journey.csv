@@ -1,0 +1,8 @@
+step,val_mae,val_rmse,val_r2,test_mae,test_rmse,test_r2
+1. Dummy baseline (predict mean),38.7003,50.2398,-0.0,38.8275,50.0836,-0.0
+2. Linear Regression,21.9893,29.7027,0.6505,21.9317,29.4107,0.6552
+3. Ridge (tuned alpha),21.9738,29.6921,0.6507,21.9276,29.4147,0.6551
+4. Ridge + log target,21.7936,30.8657,0.6226,21.7443,30.578,0.6272
+5. Ridge + log target + hotel x month,15.7983,23.4956,0.7813,15.7607,23.0946,0.7874
+6. Random Forest + hotel x month,11.2125,18.044,0.871,11.0621,17.5938,0.8766
+7. Random Forest + hotel x month + log target,11.5029,18.541,0.8638,11.3347,17.9917,0.871

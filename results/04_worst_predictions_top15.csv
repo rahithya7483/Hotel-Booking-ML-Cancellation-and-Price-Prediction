@@ -1,0 +1,16 @@
+actual,pred,residual,abs_err,hotel,arrival_date_month,market_segment,total_nights,total_guests,reserved_room_type
+284.0,90.1,193.9,193.9,Resort Hotel,December,Direct,1,2.0,F
+290.0,96.52,193.48,193.48,City Hotel,October,Offline TA/TO,1,2.0,A
+292.4,114.13,178.27,178.27,Resort Hotel,September,Online TA,5,2.0,D
+6.0,168.48,-162.48,162.48,City Hotel,August,Direct,4,3.0,B
+44.0,202.95,-158.95,158.95,City Hotel,August,Direct,4,4.0,E
+44.0,200.87,-156.87,156.87,City Hotel,July,Direct,3,3.0,E
+251.0,99.94,151.06,151.06,City Hotel,March,Groups,1,1.0,A
+349.63,201.5,148.13,148.13,City Hotel,December,Online TA,3,4.0,F
+233.0,86.88,146.12,146.12,City Hotel,March,Direct,1,2.0,A
+8.0,153.2,-145.2,145.2,Resort Hotel,July,Direct,1,2.0,A
+20.0,165.19,-145.19,145.19,Resort Hotel,August,Direct,2,2.0,A
+24.87,168.91,-144.04,144.04,City Hotel,April,Online TA,3,2.0,D
+66.0,204.75,-138.75,138.75,Resort Hotel,August,Online TA,5,2.0,E
+28.0,165.45,-137.45,137.45,Resort Hotel,August,Direct,3,2.0,A
+250.0,116.36,133.64,133.64,City Hotel,October,Offline TA/TO,1,1.0,A

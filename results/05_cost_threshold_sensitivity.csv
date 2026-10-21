@@ -1,0 +1,9 @@
+split,cost_false_alarm,cost_missed_cancel,best_threshold_on_validation
+random,0.5,1.0,0.56
+random,1.0,1.0,0.72
+random,2.0,1.0,0.82
+random,4.0,1.0,0.91
+time,0.5,1.0,0.09
+time,1.0,1.0,0.44
+time,2.0,1.0,0.82
+time,4.0,1.0,0.92

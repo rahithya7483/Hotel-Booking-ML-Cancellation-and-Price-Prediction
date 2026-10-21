@@ -1,0 +1,31 @@
+feature,group,n,mae,mean_actual
+hotel,City Hotel,10514,10.758,113.004
+hotel,Resort Hotel,6600,11.546,101.349
+arrival_date_month,April,1531,9.755,105.49
+arrival_date_month,August,2249,14.142,151.712
+arrival_date_month,December,963,11.358,84.017
+arrival_date_month,February,1170,6.939,75.623
+arrival_date_month,January,890,6.992,69.86
+arrival_date_month,July,1988,13.451,138.638
+arrival_date_month,June,1612,12.412,121.279
+arrival_date_month,March,1444,8.582,83.306
+arrival_date_month,May,1593,11.324,113.012
+arrival_date_month,November,993,9.227,75.228
+arrival_date_month,October,1379,9.823,93.565
+arrival_date_month,September,1302,13.372,113.358
+market_segment,Aviation,54,7.241,100.423
+market_segment,Complementary,14,51.519,35.302
+market_segment,Corporate,836,8.079,68.531
+market_segment,Direct,2300,14.879,120.034
+market_segment,Groups,910,8.04,76.041
+market_segment,Offline TA/TO,2789,9.366,83.068
+market_segment,Online TA,10211,11.144,119.172
+reserved_room_type,A,11096,9.688,94.721
+reserved_room_type,B,208,13.396,92.634
+reserved_room_type,C,202,21.564,167.421
+reserved_room_type,D,3405,11.32,122.487
+reserved_room_type,E,1152,13.194,127.503
+reserved_room_type,F,555,17.995,173.332
+reserved_room_type,G,379,23.001,184.603
+reserved_room_type,H,116,19.097,194.824
+reserved_room_type,L,1,8.735,200.0

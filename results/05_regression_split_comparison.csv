@@ -1,0 +1,7 @@
+split,model,test_mae,test_rmse,test_r2,bias_mean_residual
+random,Ridge (hotel x month),18.3054,25.4342,0.7421,-0.0687
+random,Random Forest,13.2822,20.2006,0.8373,-0.2544
+random,Gradient Boosting,13.4827,19.8865,0.8423,-0.0794
+time,Ridge (hotel x month),23.5267,31.618,0.6598,18.2983
+time,Random Forest,21.7331,29.7057,0.6997,16.7076
+time,Gradient Boosting,22.1442,29.5081,0.7037,17.23

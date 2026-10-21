@@ -1,0 +1,4 @@
+hand_picked_setting,tuned_model,roc_auc_before,roc_auc_after,f1_before,f1_after
+Logistic Reg. (balanced),Logistic Regression (tuned),0.8323,0.8325,0.6229,0.6229
+Decision Tree (depth 6),Decision Tree (tuned),0.8425,0.8688,0.5559,0.6344
+Random Forest (balanced),Random Forest (tuned),0.8935,0.8947,0.7001,0.6991

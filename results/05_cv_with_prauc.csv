@@ -1,0 +1,4 @@
+model,roc_auc_mean,roc_auc_std,pr_auc_mean,pr_auc_std,f1_mean,f1_std,within_1_std_of_best,complexity_rank,chosen
+Logistic Regression,0.8305,0.0032,0.6465,0.0051,0.6203,0.0065,False,1,False
+Random Forest,0.8865,0.0014,0.7487,0.004,0.6906,0.0025,False,3,False
+Gradient Boosting,0.8886,0.0003,0.7532,0.0017,0.6878,0.0018,True,3,True

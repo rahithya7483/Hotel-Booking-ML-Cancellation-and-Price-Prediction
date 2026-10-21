@@ -1,0 +1,4 @@
+case,predicted_cancel_prob,actually_cancelled,lead_time,deposit_type,market_segment,country,total_of_special_requests,required_car_parking_spaces
+high_risk_correct,0.999,1,134,Non Refund,Offline TA/TO,PRT,0,0
+low_risk_correct,0.0,0,76,No Deposit,Online TA,PRT,0,1
+missed_cancellation,0.006,1,24,No Deposit,Offline TA/TO,GBR,0,0

@@ -1,0 +1,8 @@
+model,method,metric,search_space,trials,best_score,worst_score,best_params
+Logistic Regression,GridSearchCV (3-fold),ROC-AUC,"C in [0.01, 0.1, 1, 10]",4,0.8322,0.8311,C=10
+Decision Tree,GridSearchCV (3-fold),ROC-AUC,"max_depth in [4,6,8,12,16] x min_samples_leaf in [5,20,50]",15,0.8638,0.808,"max_depth=12, min_samples_leaf=50"
+Random Forest,RandomizedSearchCV (3-fold),ROC-AUC,"max_depth [12,16,20,None] x min_samples_leaf [2,5,10] x max_features [sqrt,0.3]; 6 random trials",6,0.8919,0.8722,"min_samples_leaf=5, max_features=0.3, max_depth=20"
+Gradient Boosting (classification),RandomizedSearchCV (3-fold),PR-AUC,learning_rate x max_leaf_nodes x min_samples_leaf x l2_regularization x max_iter; 8 random trials,8,0.7481,0.7223,"min_samples_leaf=100, max_leaf_nodes=31, max_iter=400, learning_rate=0.1, l2_regularization=10"
+Gradient Boosting (price),RandomizedSearchCV (3-fold),RMSE (lower is better),"same space as above, 8 random trials",8,20.1749,22.5931,"min_samples_leaf=20, max_leaf_nodes=63, max_iter=600, learning_rate=0.1, l2_regularization=0"
+Ridge (price),alpha sweep on validation set,RMSE (lower is better),"12 alphas, 0.01 to 1e+03 (log scale)",12,29.6921,30.5291,alpha=43.29
+Lasso (price),alpha sweep on validation set,RMSE (lower is better),"12 alphas, 0.0001 to 1 (log scale)",12,29.6894,34.4064,alpha=0.0152

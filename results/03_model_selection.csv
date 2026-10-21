@@ -1,0 +1,4 @@
+model,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1_mean,f1_std,roc_auc_mean,roc_auc_std,complexity_rank,within_1_std_of_best,chosen
+Logistic Regression (tuned),0.7416,0.004,0.5206,0.005,0.7754,0.0103,0.6229,0.0055,0.8325,0.0033,1,False,False
+Decision Tree (tuned),0.8129,0.0026,0.6864,0.0049,0.5902,0.0202,0.6344,0.0109,0.8688,0.0019,2,False,False
+Random Forest (tuned),0.8302,0.0027,0.6837,0.0061,0.7128,0.0055,0.6979,0.0041,0.8939,0.0019,3,True,True

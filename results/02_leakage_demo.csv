@@ -1,0 +1,3 @@
+setup,accuracy,f1,roc_auc
+WITH leakage (reservation_status included),1.0,1.0,1.0
+Leakage guard ON (only info known at booking time),0.805,0.6052,0.8608

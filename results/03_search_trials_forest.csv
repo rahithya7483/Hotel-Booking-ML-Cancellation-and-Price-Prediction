@@ -1,0 +1,7 @@
+min_samples_leaf,max_features,max_depth,mean_test_score,std_test_score,rank_test_score,mean_fit_time
+2,sqrt,,0.8918,0.0022,1,12.6213
+5,0.3,20,0.8917,0.0021,2,21.6719
+2,0.3,16,0.8896,0.0016,3,20.3351
+10,0.3,16,0.8876,0.0011,4,20.1787
+10,sqrt,16,0.8794,0.0021,5,9.8512
+2,sqrt,12,0.8731,0.0026,6,9.1586

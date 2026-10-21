@@ -1,0 +1,7 @@
+split,model,test_prevalence,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_pr_auc
+random,Logistic Regression,0.2752,0.7432,0.5226,0.7728,0.6235,0.8326,0.6574
+random,Random Forest,0.2752,0.8127,0.63,0.774,0.6946,0.8869,0.7535
+random,Gradient Boosting,0.2752,0.793,0.5886,0.8232,0.6864,0.8884,0.7574
+time,Logistic Regression,0.3195,0.7163,0.5417,0.7265,0.6206,0.7961,0.6391
+time,Random Forest,0.3195,0.7511,0.6247,0.5534,0.5869,0.7841,0.6147
+time,Gradient Boosting,0.3195,0.738,0.5823,0.6367,0.6083,0.7947,0.6332

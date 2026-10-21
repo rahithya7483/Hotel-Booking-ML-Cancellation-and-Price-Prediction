@@ -1,0 +1,11 @@
+item,raw_data,after_cleaning
+rows,119390.0,87213
+columns,32.0,37
+exact duplicate rows,31994.0,0
+missing cells (children),4.0,0
+missing cells (country),488.0,0
+missing cells (agent),16340.0,converted to has_agent
+missing cells (company),112593.0,converted to has_company
+bookings with zero guests,180.0,0
+rows with adr <= 0 (regression only),1960.0,1644
+cancellation rate,0.3704,0.2752

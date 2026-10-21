@@ -1,0 +1,7 @@
+split,threshold_rule,threshold,missed_cancellations_FN,false_alarms_FP,cost_per_1000_bookings,precision,recall,f1
+random,default 0.50,0.5,849,2762,365.4,0.589,0.823,0.686
+random,F1-optimal (0.58),0.58,1184,2019,299.4,0.642,0.753,0.693
+random,cost-optimal (0.82),0.82,2735,514,215.7,0.801,0.43,0.56
+time,default 0.50,0.5,3671,4615,407.9,0.582,0.637,0.608
+time,F1-optimal (0.06),0.06,414,14264,915.1,0.405,0.959,0.569
+time,cost-optimal (0.82),0.82,6239,1825,312.7,0.679,0.383,0.489

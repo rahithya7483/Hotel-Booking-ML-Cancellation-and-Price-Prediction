@@ -1,0 +1,7 @@
+model,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1_mean,f1_std,roc_auc_mean,roc_auc_std
+Dummy (most frequent),0.7248,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0
+Logistic Regression,0.7868,0.0034,0.6671,0.013,0.451,0.0067,0.5381,0.0051,0.8315,0.0035
+Logistic Reg. (balanced),0.7416,0.004,0.5205,0.0051,0.7753,0.0095,0.6228,0.0051,0.8323,0.0033
+Decision Tree (depth 6),0.7947,0.002,0.6877,0.0159,0.4684,0.0371,0.5559,0.0208,0.8425,0.0008
+Random Forest (default-ish),0.8317,0.0015,0.7573,0.0089,0.572,0.0109,0.6516,0.005,0.8923,0.0017
+Random Forest (balanced),0.8246,0.0016,0.6607,0.0029,0.7459,0.0062,0.7007,0.0032,0.8937,0.002
